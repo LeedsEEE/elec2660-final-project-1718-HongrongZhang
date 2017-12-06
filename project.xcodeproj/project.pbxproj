@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00BF2F891FD771270003F51C /* TeamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF2F881FD771270003F51C /* TeamCell.m */; };
+		00BF2F8C1FD771C60003F51C /* TeamVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF2F8B1FD771C60003F51C /* TeamVC.m */; };
+		00BF2F8F1FD772120003F51C /* ChampionshipVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF2F8E1FD772120003F51C /* ChampionshipVC.m */; };
+		00BF2F921FD772590003F51C /* ResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF2F911FD772590003F51C /* ResultVC.m */; };
+		00BF2F9E1FD773F50003F51C /* FiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF2F9D1FD773F50003F51C /* FiveVC.m */; };
+		00BF2FA01FD780AD0003F51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BF2F9F1FD780AC0003F51C /* Assets.xcassets */; };
 		00DCD41E1FC5EC190028AE11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DCD41D1FC5EC190028AE11 /* AppDelegate.m */; };
 		00DCD4211FC5EC190028AE11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DCD4201FC5EC190028AE11 /* ViewController.m */; };
 		00DCD4241FC5EC190028AE11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DCD4221FC5EC190028AE11 /* Main.storyboard */; };
-		00DCD4261FC5EC190028AE11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DCD4251FC5EC190028AE11 /* Assets.xcassets */; };
 		00DCD4291FC5EC190028AE11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DCD4271FC5EC190028AE11 /* LaunchScreen.storyboard */; };
 		00DCD42C1FC5EC190028AE11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DCD42B1FC5EC190028AE11 /* main.m */; };
 		00DCD4361FC5EC1A0028AE11 /* projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DCD4351FC5EC1A0028AE11 /* projectTests.m */; };
@@ -35,13 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00BF2F871FD771270003F51C /* TeamCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamCell.h; sourceTree = "<group>"; };
+		00BF2F881FD771270003F51C /* TeamCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamCell.m; sourceTree = "<group>"; };
+		00BF2F8A1FD771C60003F51C /* TeamVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamVC.h; sourceTree = "<group>"; };
+		00BF2F8B1FD771C60003F51C /* TeamVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamVC.m; sourceTree = "<group>"; };
+		00BF2F8D1FD772120003F51C /* ChampionshipVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChampionshipVC.h; sourceTree = "<group>"; };
+		00BF2F8E1FD772120003F51C /* ChampionshipVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChampionshipVC.m; sourceTree = "<group>"; };
+		00BF2F901FD772590003F51C /* ResultVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultVC.h; sourceTree = "<group>"; };
+		00BF2F911FD772590003F51C /* ResultVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultVC.m; sourceTree = "<group>"; };
+		00BF2F9C1FD773F50003F51C /* FiveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveVC.h; sourceTree = "<group>"; };
+		00BF2F9D1FD773F50003F51C /* FiveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveVC.m; sourceTree = "<group>"; };
+		00BF2F9F1FD780AC0003F51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00DCD4191FC5EC190028AE11 /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DCD41C1FC5EC190028AE11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00DCD41D1FC5EC190028AE11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		00DCD41F1FC5EC190028AE11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		00DCD4201FC5EC190028AE11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		00DCD4231FC5EC190028AE11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00DCD4251FC5EC190028AE11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00DCD4281FC5EC190028AE11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00DCD42A1FC5EC190028AE11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00DCD42B1FC5EC190028AE11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,12 +116,22 @@
 		00DCD41B1FC5EC190028AE11 /* project */ = {
 			isa = PBXGroup;
 			children = (
+				00BF2F9F1FD780AC0003F51C /* Assets.xcassets */,
 				00DCD41C1FC5EC190028AE11 /* AppDelegate.h */,
 				00DCD41D1FC5EC190028AE11 /* AppDelegate.m */,
 				00DCD41F1FC5EC190028AE11 /* ViewController.h */,
 				00DCD4201FC5EC190028AE11 /* ViewController.m */,
 				00DCD4221FC5EC190028AE11 /* Main.storyboard */,
-				00DCD4251FC5EC190028AE11 /* Assets.xcassets */,
+				00BF2F871FD771270003F51C /* TeamCell.h */,
+				00BF2F881FD771270003F51C /* TeamCell.m */,
+				00BF2F8A1FD771C60003F51C /* TeamVC.h */,
+				00BF2F8B1FD771C60003F51C /* TeamVC.m */,
+				00BF2F8D1FD772120003F51C /* ChampionshipVC.h */,
+				00BF2F8E1FD772120003F51C /* ChampionshipVC.m */,
+				00BF2F901FD772590003F51C /* ResultVC.h */,
+				00BF2F911FD772590003F51C /* ResultVC.m */,
+				00BF2F9C1FD773F50003F51C /* FiveVC.h */,
+				00BF2F9D1FD773F50003F51C /* FiveVC.m */,
 				00DCD4271FC5EC190028AE11 /* LaunchScreen.storyboard */,
 				00DCD42A1FC5EC190028AE11 /* Info.plist */,
 				00DCD42B1FC5EC190028AE11 /* main.m */,
@@ -239,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00DCD4291FC5EC190028AE11 /* LaunchScreen.storyboard in Resources */,
-				00DCD4261FC5EC190028AE11 /* Assets.xcassets in Resources */,
+				00BF2FA01FD780AD0003F51C /* Assets.xcassets in Resources */,
 				00DCD4241FC5EC190028AE11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +292,12 @@
 			files = (
 				00DCD4211FC5EC190028AE11 /* ViewController.m in Sources */,
 				00DCD42C1FC5EC190028AE11 /* main.m in Sources */,
+				00BF2F891FD771270003F51C /* TeamCell.m in Sources */,
+				00BF2F8F1FD772120003F51C /* ChampionshipVC.m in Sources */,
+				00BF2F8C1FD771C60003F51C /* TeamVC.m in Sources */,
 				00DCD41E1FC5EC190028AE11 /* AppDelegate.m in Sources */,
+				00BF2F9E1FD773F50003F51C /* FiveVC.m in Sources */,
+				00BF2F921FD772590003F51C /* ResultVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
